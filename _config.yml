@@ -48,7 +48,7 @@ address:
   - line: India
 
 # Credits content
-credits: 'With many thanks to <a href="https://www.waze.com/user/editor/gertbroos">Gert</a> <a href="https://www.waze.com/user/editor/petervdveen">Peter</a> <a href="https://www.waze.com/user/editor/jlsjonas">Jonas</a> and <a href="https://www.waze.com/user/editor/didierlmn">Didier</a> '
+credits: 'With many thanks to <a href="https://www.waze.com/user/editor/gertbroos">Gert</a>, <a href="https://www.waze.com/user/editor/petervdveen">Peter</a>, <a href="https://www.waze.com/user/editor/jlsjonas">Jonas</a> and <a href="https://www.waze.com/user/editor/didierlmn">Didier</a> '
 
 # Build settings
 markdown: kramdown
