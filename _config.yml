@@ -31,7 +31,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Disclaimer This website and linked pages are managed by the Waze India Community, and not operated or supervised by Waze. 
+  copyright: 'Disclaimer: This website and linked pages are managed by the Waze India Community, and not operated or supervised by Waze.' 
   location: Location
   social: Around the Web
   credits: Credits
