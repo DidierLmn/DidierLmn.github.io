@@ -16,7 +16,6 @@ if ($email === FALSE) {
     echo 'Invalid email';
     exit(1);
 }
-$phone = $_POST['phone'];
 $message = $_POST['message'];
 
 
