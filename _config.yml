@@ -1,55 +1,40 @@
-# Site settings
+---
 title: Waze India Community
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: contact@wazeindia.in
 url: https://wazeindia.in
-description: "Waze India Community"
-skills: "Outsmarting traffic, together"
-# meta_author: LastName FirstName
-
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
+description: Waze India Community
+skills: Outsmarting traffic, together
+google_verify: 
+bing_verify: 
 contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-# disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 93c4d1 #18bc9c 80B3FF
-  primary-rgb: "147,196,209" #"24,288,156" "128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
+  primary: 93c4d1
+  primary-rgb: '147,196,209'
+  secondary: 2c3e50
+  secondary-dark: 233140
 footer:
-  copyright: 'Disclaimer: This website and linked pages are managed by the Waze India Community, and not operated or supervised by Waze.' 
+  copyright: 'Disclaimer: This website and linked pages are managed by the Waze India
+    Community, and not operated or supervised by Waze.'
   location: Location
   social: Around the Web
   credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/wazeindia
-  - title: facebook
-    url: https://www.facebook.com/WazeIndia/
-
-# Postal address (add as many lines as necessary)
+- title: twitter
+  url: https://twitter.com/wazeindia
+- title: facebook
+  url: https://www.facebook.com/WazeIndia/
 address:
-  - line: India
-
-# Credits content
-credits: 'With many thanks to <a href="https://www.waze.com/user/editor/gertbroos">Gert</a>, <a href="https://www.waze.com/user/editor/petervdveen">Peter</a>, <a href="https://www.waze.com/user/editor/jlsjonas">Jonas</a> and <a href="https://www.waze.com/user/editor/didierlmn">Didier</a> '
-
-# Build settings
+- line: India
+credits: 'With many thanks to <a href="https://www.waze.com/user/editor/gertbroos">Gert</a>,
+  <a href="https://www.waze.com/user/editor/petervdveen">Peter</a>, <a href="https://www.waze.com/user/editor/jlsjonas">Jonas</a>
+  and <a href="https://www.waze.com/user/editor/didierlmn">Didier</a> '
 markdown: kramdown
 permalink: pretty
